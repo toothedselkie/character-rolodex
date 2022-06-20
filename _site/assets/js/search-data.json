@@ -1,0 +1,14 @@
+{"0": {
+    "doc": "Happy Jekylling!",
+    "title": "You’re ready to go!",
+    "content": "Start developing your Jekyll website. ",
+    "url": "http://localhost:4000/#youre-ready-to-go",
+    "relUrl": "/#youre-ready-to-go"
+  },"1": {
+    "doc": "Happy Jekylling!",
+    "title": "Happy Jekylling!",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  }
+}
