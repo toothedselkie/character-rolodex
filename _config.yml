@@ -3,7 +3,7 @@ url: "https://toothedselkie.github.io" # the base hostname & protocol for your s
 baseurl: "character-rolodex" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
-theme: "just-the-docs"
+theme: jekyll-theme-minimal
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page.
