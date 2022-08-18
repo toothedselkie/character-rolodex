@@ -158,14 +158,14 @@ div a:hover {
 	background-color: #3ee4c0;
 }
 
-div img {
+img.inline {
 	width: 30%;
 }
 
 /* Responsive */
 @media only screen and (max-width: 700px) {
-	div img { 
-		float:none;
+	div img.inline { 
+		float: none;
 		width: 100%; 
 		margin-bottom: 5%;
 }
