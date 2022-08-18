@@ -34,16 +34,17 @@
 }
 
 /* CSS Body */
-body { background-color: #475831; }
+body { 
+	background-color: #475831; 
+	color: #3ee4c0;
+	}
 
 h2, h3, h4, h5 { 
 	font-family: Oswald, monospace;
-	color: #3ee4c0;
 }
 
 p { 
 	font-family: Montserrat, monospace;
-	color: #3ee4c0;
 	font-size: 18px;
 }
 
@@ -125,22 +126,45 @@ div.textblock {
 	margin: 2%;
 }
 
-div.textblock h2 {
+div.duo-column {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	column-gap: 2%;
+	
+	background-color: #104e52;
+	color: #3ee4c0;
+	
+	width: 50%;
+	margin: auto;
+}
+
+div.column-item {
+	align-content: center;
+}
+
+div {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
+}
+
+div h2 {
 	font-variant: small-caps;
 }
 
-div.textblock a:hover {
+div a:hover {
 	color: #475831;
 	background-color: #3ee4c0;
 }
 
-div.textblock img {
+div img {
 	width: 30%;
 }
 
 /* Responsive */
 @media only screen and (max-width: 700px) {
-	div.textblock img { 
+	div img { 
 		float:none;
 		width: 100%; 
 		margin-bottom: 5%;
