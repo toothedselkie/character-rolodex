@@ -55,15 +55,26 @@
 body { 
 	background-color: #475831; 
 	color: #3ee4c0;
+	
+	padding: 0;
+	margin: 0;
 	}
 
 h1 {
-	font-family: Oswald
+	font-family: Oswald, sans-serif;
+	font-size: 30pt;
+	font-weight: 600;
 }
 
 h2, h3, h4, h5 { 
 	font-family: Righteous, sans-serif;
 }
+
+h2 { font-size: 26pt; font-weight: 500; }
+
+h3 { font-size: 20pt; font-weight: 500; }
+
+h4 { font-size: 18pt; font-weight: 400; }
 
 p { 
 	font-family: Montserrat, monospace;
@@ -71,21 +82,16 @@ p {
 }
 
 
+/* specific div classes */
 div.header {
 	background-color: #3ee4c0;
 	color: #475831;
 	font-family: Oswald, monospace;
 	
-	width: 40%;
 	padding-left: 1%;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: 15%;
-	margin-top: 2%;
-}
-
-div.header h2 {
-	color: #475831;
+	margin: 0 0 0 0;
 }
 
 div.songquote {
@@ -165,6 +171,12 @@ div.column-item {
 	align-content: center;
 }
 
+
+/* navigation css */
+
+
+
+/* basic div css */
 div {
 	margin-left: 2%;
 	margin-right: 2%;
@@ -182,7 +194,9 @@ div a:hover {
 
 img.inline {
 	width: 30%;
+	margin-bottom: 1%;
 }
+
 
 /* Responsive */
 @media only screen and (max-width: 1000px) {
@@ -202,5 +216,12 @@ img.inline {
 		color: #3ee4c0;
 		
 		width: 100%;
-	}	
+	}
+	
+	div {
+		margin: 1% 4% 1% 4%;
+		padding: 1% 1% 1% 1%;
+	}
+	
+	h1 {text-align: center;}
 }

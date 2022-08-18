@@ -3,41 +3,60 @@
 <head>
     <title>Profile - Castel Torres Knezevic</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://toothedselkie.github.io/character-rolodex/castel/castel.css" type="text/css">
-	<!--<link rel="stylesheet" href="file:///A:/Ruby Workspace/OC Profile/webbedsite/docs/castel/castel.css" type="text/css"> -->
+	<!-- <link rel="stylesheet" href="https://toothedselkie.github.io/character-rolodex/castel/castel.css" type="text/css"> -->
+	<link rel="stylesheet" href="file:///A:/Ruby Workspace/OC Profile/webbedsite/docs/castel/castel.css" type="text/css"> 
 
 	<style>
 		div.leftblock {
-			margin-left: 3%;
+			margins: 0 3% 0 1%;
 			border-left: 2px dashed;
 		}
 		
-		div.leftblock h2 {
-			padding-left: 2%;
-		}
-		
 		div.rightblock {
-			margin-right: 3%;
+			margin: 0 1% 0 3%;
 			border-right: 2px dashed; 
 		}
 		
-		div.rightblock h2 {
-			text-align: right;
-			padding-right: 4%;
-		}
+		div.rightblock h2 { text-align: right; }
 		
+		@media only screen and (max-width: 1000px) {
+			div.rightblock {border-right: 0px;}
+			div.leftblock {border-left: 0px;}
+		}
 	</style>
 </head>
 <body>
+	<nav class="navbar">
+		<div class="nav-container">
+			<input type="checkbox" name="" id="">
+			<div class="hamburger-lines">
+				<span class="lines line1"></span>
+				<span class="lines line2"></span>
+				<span class="lines line3"></span>
+			</div>
+			
+			<ul class="menu-items">
+				<li><a href="#summary">Summary</a></li>
+				<li><a href="#appearance">Appearance</a></li>
+			</ul>
+		</div>
+	</nav>
 	
-	<div class="leftblock">
+	<div class="header">
+		<h1>Castel Torres-Knezevic</h1>
+	</div>
+	
+	<div>
+	</div>
+	
+	<div class="leftblock" id="summary">
 		<h2>Summary</h2>
 		<p>Castel Torres-Knezevic has made a pleasant life for himself on Wakugaijima. A search-and-rescue operative on hiatus and a strangely laidback UA faculty member, he strikes a familiar figure around the island. He is an active community member and can be seen hanging out, chatting with the grandmas at the vegetable stand in the early mornings.</p>
 		
 		<p>What many would know about Castel is his previous stint as an experienced search and rescue ranger and educator in the Cascades Mountains. After all, it's easy to find recordings of his passionate lectures on local botany and mycology to families and schools alike. The Pacific Northwest remains near and dear to his heart and he wishes to return there someday.</p>
 	</div>
 	
-	<div class="rightblock">
+	<div class="rightblock" id="appearance">
 		<h2>Appearance</h2>
 		<img class="inline" src="https://github.com/toothedselkie/character-rolodex/blob/main/assets/Images/Castel/ILLO%20-%20Castel%20-%20ref.png?raw=true" style="float: left; margin-right: 1%;" />
 		<p>Like a sunbathing lizard, Castel is often seen reclining in a hammock throughout campus. It can be hard to believe that he is an esteemed faculty member at UA High, but his relaxed air and easy-going nature put people at ease.</p>
@@ -68,7 +87,7 @@
 		<p>On the topic of work, Castel does not own a formal hero uniform. Instead, his public-facing persona was that of an National Park Service ranger, with all the trappings and ornaments of that position. He still has the outfit, often whipping it out sans identifications for cute nature walks through the local preserve. For the search and rescue side of his job, he opted for a flexible set of equipment to fit the changing demands of different situations, picked and tested for durability and comfort in the field. He is no stranger to hiking and camping in the backcountry for days, even weeks at time, and will amble along, as easy-going as ever.</p>
 	</div>
 	
-	<div class="textblock">
+	<div class="leftblock" id="personality">
 		<h2>Personality</h2>
 		<p>A remarkably laid-back person, Castel has learned early on that life will throw some heavy obstacles at you and all a person can do is roll with it and see the good at the end of it all. He can easily find joy in the smaller stuff and has a habit of pursuing a lot of different interests and eccentricity. After all, in Castel's book, it's a great day when he tries something new! This sort of positivity can grate on other people's nerves, which is a fact he is aware of.</p>
 
@@ -106,7 +125,7 @@
 		</div>
 	</div>
 	
-	<div class="textblock">
+	<div class="rightblock" id="quirk">
 		<h2>QUIRK: INK BLOSSOMS</h2>
 		<p>Castel is not one to divulge exactly what his quirk does, finding it hard to explain what comes naturally to him. He is able to pull and form tendrils and semi-solid structures from ink sources, which resemble the appearance of climbing ivy and plants. They are not fully mobile, since they have to be rooted to the ink source, but are able to pick up and hold up weighty objects.</p>
 
@@ -117,7 +136,7 @@
 		<p>He does have limits. Quirk usage exhausts him physically and mentally, even if it's second nature, as it's like lifting weights with the strength of his mind. Ink sources are prone to drying out faster while being affected by his quirk. Castel also has a sort of discomfort when it comes to his quirk, especially with how weird it feels when using it.</p>
 	</div>
 	
-	<div class="textblock">
+	<div class="leftblock" id="history">
 		<h2>History</h2>
 		<p>Castel swears upon the majesty of the mountains — those rough peaks poking out from the edge of the sky. He grew up among the trees and boulders of the Adirondacks, where the Rose family owned an expansive plot of land and a cabin. He fondly remembers exploring the woods and wading knee-deep into the rivers. But the heavy expectations of his family pushed down as he was swaddled off to a posh private school.</p>
 
@@ -137,5 +156,9 @@
 
 		<p>So, why not?</p>
 	</div>
+	
+	<div>
+	</div>
+	
 </body>
 </html>
