@@ -168,4 +168,17 @@ img.inline {
 		float: none;
 		width: 100%; 
 		margin-bottom: 5%;
+	}
+	
+	div.duo-column {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		column-gap: 2%;
+		
+		background-color: #104e52;
+		color: #3ee4c0;
+		
+		width: 100%;
+	}	
 }
